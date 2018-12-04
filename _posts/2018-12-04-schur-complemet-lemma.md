@@ -1,6 +1,8 @@
 ---
-Layout: post
-title: Shur complement lemma
+title: Schur complement-lemma
+date: 2018-12-04
+categories: Convex Optimizaton
+tags: lemma
 ---
 
 矩阵S是一个对称矩阵可以分块为：
