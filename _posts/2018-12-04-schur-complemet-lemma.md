@@ -1,7 +1,7 @@
 ---
 title: Schur complement-lemma
 date: 2018-12-04
-categories: Convex Optimizaton
+categories: Convex-Optimizaton
 tags: lemma
 ---
 
@@ -13,9 +13,8 @@ $$ S = a + b $$
 
 其中矩阵$A$和矩阵$C$都是对称矩阵。那么矩阵$S$正定的充要条件为：
 
-* $A​$为正定矩阵
-
-* $C - B^{\mathrm{T}}A^{-1}B$是正定矩阵。
+1.  $A​$为正定矩阵
+2. $C - B^{\mathrm{T}}A^{-1}B$是正定矩阵。
 
 要证明$S$为正定矩阵，那必须满足：  
 
@@ -42,7 +41,7 @@ $$
 \nabla_y g(y, z) = 2Bz + 2Ay = 0
 $$  
 
-那么$y = -A^{-1}Bz$，因为$A$是正定矩阵，所以一定可逆（S为正定矩阵首先就得满足A正定）。将最优的$y$带回到$g$中得到：  
+那么$y = -A^{-1}Bz$，因为$A$是正定矩阵，所以一定可逆（$S$为正定矩阵首先就得满足$A$正定）。将最优的$y$带回到$g$中得到：  
 
 $$
 \forall z, \ \ \ z^{\mathrm{T}}(C - B^{\mathrm{T}}A^{-1}B)z > 0
