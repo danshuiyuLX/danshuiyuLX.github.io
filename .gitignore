@@ -4,3 +4,4 @@ Gemfile
 *.lock
 Gemfile
 .DS_Store
+_site/
