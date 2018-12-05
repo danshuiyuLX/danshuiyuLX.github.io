@@ -1,8 +1,8 @@
 ---
 
-title: Schur complement-lemma  
+title: 舒尔补 (Schur complement lemma)  
 date: 2018-12-04  
-categories: Convex-Optimizaton  
+categories: Optimizaton  
 tags: lemma  
 
 ---

@@ -10,10 +10,10 @@ layout: page
   {% if year != y or month != m %}
     {% assign year = y %}
 	{% assign month = m %}
-    <li class="listing-seperator">{{ y }}- {{ m }}</li>
+    <li class="listing-seperator">{{ y }} 年 {{ m }} 月</li>
   {% endif %}
   <li class="listing-item">
-    <time datetime="{{ post.date   |  date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <time datetime="{{ post.date   |  date:"%Y-%m-%d" }}">{{ post.date | date:"%Y 年 %m 月 %d 日" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
