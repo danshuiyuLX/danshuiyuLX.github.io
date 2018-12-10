@@ -2,12 +2,13 @@
 
 title: 同伦法（Homotopy Method）  
 date: 2018-09-19  
-catagries: optimization  
-tags: algorithm optimization Newton  
+catagries: Optimization  
+tags: Algorithm Optimization Newton  
 
 ---
 
-同伦思想：给定两个拓扑空间X和Y。考虑两个连续函数$f$和$g$，而且$f、g$是X到Y的映射。如果存在一个连续映射H：$dom H : domf \times [0,1] \rightarrow Y$，满足：  
+同伦思想：给定两个拓扑空间X和Y。考虑两个连续函数$f$和$g$，而且$f、g$是X到Y的映射。如果存在一个连续映射H：$dom H : domf \times [0,1] \rightarrow Y$，满足：
+  
 $$
 \forall x\in X, H(x, 0) = f(x) \\
 \forall x\in X, H(x, 1) = g(x)
