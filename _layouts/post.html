@@ -27,6 +27,11 @@ layout: default
 <section class="post">
 {{ content }}
 </section>
+
+
+{% include comments.html %}
+
+
 <section align="right">
 <br/>
 <span>
@@ -35,7 +40,7 @@ layout: default
 	<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>
 </span>
 </section>
-{% include comments.md %}
+
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
@@ -43,3 +48,5 @@ layout: default
 <span id="busuanzi_container_page_pv">
   本文总阅读量<span id="busuanzi_value_page_pv"></span>次
 </span>
+
+
